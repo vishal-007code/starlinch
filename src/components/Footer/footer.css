@@ -1,0 +1,32 @@
+.btm-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.btn {
+  cursor: pointer;
+  padding-top: 10px;
+}
+.btm-container{
+    display:  flex; 
+    justify-content:  center;
+    gap: 92px;
+}
+/* .registered-entity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+@media only screen and (max-width: 994px) {
+    /* CSS for footer on smaller screens */
+    .btm-container {
+      /* set width to 100% */
+      width: 100%;
+      /* change display to flex for better alignment */
+      display: flex;
+      /* stack items vertically */
+      flex-direction: column; 
+    }
+  }
+  

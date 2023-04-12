@@ -8,6 +8,7 @@ module.exports = {
       ss: { max: "899px" },
       ls: { max: "400px" },
     },
+    
   },
   plugins: [],
 };
